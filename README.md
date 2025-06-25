@@ -4,13 +4,8 @@ This repository contains a Jupyter Notebook implementation of a Fake News Detect
 
 This solution is particularly important in today's world where misinformation can spread quickly through digital media. By leveraging data science tools, this project contributes towards automatic and efficient identification of fake news.
 
-📂 Project Structure
-bash
-Copy
-Edit
-fakededect.ipynb      # Jupyter notebook containing all steps for fake news classification
-README.md             # Project documentation
 🔍 Features
+
 Data preprocessing & cleaning
 
 Text vectorization using TF-IDF
@@ -50,34 +45,7 @@ matplotlib, seaborn – Visualization
 📈 Model
 The classifier used is Passive Aggressive Classifier, which is particularly well-suited for online learning with streaming data. It updates its model only when the prediction is incorrect, making it efficient and fast.
 
-📌 Evaluation Metrics:
-Accuracy
 
-Confusion Matrix
-
-Precision, Recall, F1 Score (can be extended)
-
-🚀 How to Run
-Clone the repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/fake-news-detection.git
-cd fake-news-detection
-Install dependencies (if needed):
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Open the Jupyter Notebook:
-
-bash
-Copy
-Edit
-jupyter notebook fakededect.ipynb
-Run all cells to see preprocessing, training, and predictions.
 
 📌 Future Work
 Use other ML algorithms (e.g., Logistic Regression, Random Forest)
